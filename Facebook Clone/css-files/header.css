@@ -1,0 +1,154 @@
+.headerCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.076);
+  background-color: rgb(248, 248, 248);
+}
+
+.leftCont{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 8px 0px 8px 15px;
+}
+
+.fbIcon{
+  height: 40px;
+  margin-right: 8px;
+}
+
+.searchButton{
+  display: none;
+}
+
+@media (min-width: 1240px){
+  .searchButton{
+  display: block;
+  height: 40px;
+  width: 240px;
+  padding-left: 35px;
+  font-size: 15px;
+  background-color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 20px;
+  margin-left: -40px;
+}
+}
+
+.searchIconCont{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon{
+  height: 15px;
+  width: 15px;
+  z-index: 3;
+}
+
+.middleCont{
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.homeCont, .friendsCont, .reelsCont, .gamesCont{
+  height: 54px;
+  width: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeIcon{
+  height: 25px;
+  width: 25px;
+}
+
+.friendsIcon{
+  height: 30px;
+  width: 30px;
+}
+
+.reelsIcon{
+  height: 23px;
+  width: 23px;
+}
+
+.gamesIcon{
+  height: 25px;
+  width: 25px;
+}
+
+.homeCont{
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  border-color: #1466d2;
+}
+
+.rightCont{
+  width: 300px;
+  height: 40px;
+  padding: 8px 15px 8px 0px;
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+  justify-items: center;
+  align-items: center;
+}
+
+.rightIconsCont{
+  height: 40px;
+  width: 40px;
+  background-color: rgb(229, 229, 229);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuIcon, .messengerIcon, .notifIcon{
+  height: 20px;
+  width: 20px;
+}
+
+.account{
+  position: relative;
+}
+
+.userPhoto{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.arrowDownCont{
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(229, 229, 229);
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  border: 2px solid rgb(248, 248, 248);
+}
+
+.arrowDown{
+  height: 8px;
+  width: 8px;
+}
