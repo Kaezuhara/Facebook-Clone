@@ -1,0 +1,34 @@
+.leftSbCont{
+  position: fixed;
+  width: 343px;
+  left: 8px;
+  top: 73px;
+}
+
+.leftSbItems{
+  display: flex;
+  align-items: center;
+  width: 343px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.leftSbItems:hover{
+  background-color: rgba(230, 232, 234);
+  border-radius: 8px;
+}
+
+.leftSbIcons{
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  margin-left: 7px;
+  margin-right: 13px; 
+}
+
+.leftSbLabels{
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 7px;
+}

@@ -10,7 +10,7 @@
   background-color: white;
 }
 
-.leftCont{
+.leftHdrCont{
   width: 300px;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@
     width: 240px;
     padding-left: 35px;
     font-size: 15px;
-    background-color: rgb(240, 242, 245);
+    background-color: rgba(240, 242, 245);
     border: none;
     border-radius: 20px;
     margin-left: -38px;
@@ -57,7 +57,7 @@
   z-index: 3;
 }
 
-.middleCont{
+.middleHdrCont{
   height: 56px;
   display: flex;
   justify-content: space-between;
@@ -99,7 +99,7 @@
   border-color: rgb(8, 102, 225);
 }
 
-.rightCont{
+.rightHdrCont{
   width: 300px;
   height: 40px;
   padding: 8px 16px 8px 0px;
