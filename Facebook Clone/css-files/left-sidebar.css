@@ -26,9 +26,53 @@
   margin-right: 13px; 
 }
 
+.leftSbIcons{
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  margin-left: 7px;
+  margin-right: 13px; 
+}
+
 .leftSbLabels{
   font-size: 15px;
   font-weight: 500;
   margin: 0;
   margin-bottom: 7px;
+}
+
+.leftSbArrow{
+  height: 13px;
+  width: 13px;
+}
+
+.leftSbArrowBg{
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(226, 229, 233);
+  border-radius: 18px;
+  margin-left: 7px;
+  margin-right: 13px; 
+}
+
+.infosCont{
+  position: fixed;
+  width: 330px;
+  bottom: 0px;
+  left: 0px;
+  padding: 15px;
+}
+
+.infosTexts{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(118, 118, 118);  
+}
+
+.middot{
+  margin: 0;
 }
