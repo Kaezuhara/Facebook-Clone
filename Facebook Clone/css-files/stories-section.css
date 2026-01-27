@@ -1,0 +1,82 @@
+.storiesSection{
+  display: flex;
+  width: 680px;
+  height: 200px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.createStoryCard{
+  height: 200px;
+  width: 112.5px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.userPhotoCont{
+  height: 151px;  
+  width: 112.5px;
+  position: relative;
+}
+
+.userPhotoGradient{
+  height: 151px;  
+  width: 112.5px;
+  position: absolute;
+  background-image: linear-gradient(to top, black, transparent);
+  opacity: 0.33;
+  top: 0;
+  left: 0;
+}
+
+.userPhotoStory{
+  height: 151px;  
+  width: 112.5px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.createStoryLabelCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 26px;
+}
+
+.createStoryLabel{
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.createStoryIconCont{
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #0866ff;
+  border: solid;
+  border-radius: 32px;
+  border-width: 4px;
+  border-color: white;
+  top: 131px;
+  left: 36px;
+}
+
+.createStoryIcon{
+  height: 14px;
+  width: 14px;
+}
+
+.storyCards{
+  height: 200px;
+  width: 112.5px;
+}
