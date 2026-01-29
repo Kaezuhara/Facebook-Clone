@@ -1,0 +1,7 @@
+.feedSection{
+  display: flex;
+  width: 680px;
+  height: 2000px;
+  margin-bottom: 16px;
+  background-color: gray;
+}

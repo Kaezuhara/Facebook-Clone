@@ -5,7 +5,7 @@ body{
   background-color: rgba(242, 244, 247)
 }
 
-p{
+span, p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  margin-bottom: 16px;
+  margin-bottom: 11px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -40,9 +40,9 @@
 
 .lowerPS{
   display: flex;
+  align-items: center;
   height: 40px;
   width: 648px;
-  align-items: center;
   margin-top: 8px;
   margin-bottom: 10px;
 }
@@ -75,13 +75,4 @@
   font-size: 15px;
   color: gray;
   font-weight: 600;
-  margin-top: 11px;
-}
-
-.feedSection{
-  display: flex;
-  width: 680px;
-  height: 2000px;
-  background-color: lightgray;
-  margin-bottom: 16px;
 }

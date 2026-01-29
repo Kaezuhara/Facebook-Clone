@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="/css-files/left-sidebar.css">
   <link rel="stylesheet" href="/css-files/post-section.css">
   <link rel="stylesheet" href="/css-files/stories-section.css">
+  <link rel="stylesheet" href="/css-files/feed-section.css">
   <link rel="stylesheet" href="/css-files/right-sidebar.css">
 </head>
 <body>
@@ -60,53 +61,53 @@
   <div class="leftSbCont">
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/general/user-photo.jpg">
-      <p class="leftSbLabels">Paul Justin Ferrer</p>
+      <span class="leftSbLabels">Paul Justin Ferrer</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/meta-ai.png">
-      <p class="leftSbLabels">Meta AI</p>
+      <span class="leftSbLabels">Meta AI</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/friends.png">
-      <p class="leftSbLabels">Friends</p>
+      <span class="leftSbLabels">Friends</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/memories.png">
-      <p class="leftSbLabels">Memories</p>
+      <span class="leftSbLabels">Memories</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/saved.png">
-      <p class="leftSbLabels">Saved</p>
+      <span class="leftSbLabels">Saved</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/groups.png">
-      <p class="leftSbLabels">Groups</p>
+      <span class="leftSbLabels">Groups</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/reels-colored.png">
-      <p class="leftSbLabels">Reels</p>
+      <span class="leftSbLabels">Reels</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/marketplace.png">
-      <p class="leftSbLabels">Marketplace</p>
+      <span class="leftSbLabels">Marketplace</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/feeds.png">
-      <p class="leftSbLabels">Feeds</p>
+      <span class="leftSbLabels">Feeds</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/gaming-video.png">
-      <p class="leftSbLabels">Events</p>
+      <span class="leftSbLabels">Events</span>
     </div>
     <div class="leftSbItems">
       <img class="leftSbIcons" src="/images/left-bar/pages.png">
-      <p class="leftSbLabels">Ads Manager</p>
+      <span class="leftSbLabels">Ads Manager</span>
     </div>
     <div class="leftSbItems">
       <div class="leftSbArrowBg">
         <img class="leftSbArrow" src="/images/general/arrow-down.png">
       </div>
-      <p class="leftSbLabels">See more</p>
+      <span class="leftSbLabels">See more</span>
     </div>
   </div>
   <!--Bottom Left Sidebar-->
@@ -118,7 +119,7 @@
       <span>&middot;</span>
       <a class="infosLink">Advertising</a>
       <span>&middot;</span>
-      <a class="infosLink">Ad Choices &#9655;</a>
+      <a class="infosLink">Ad Choices <span class="infosAdChoicesSymbol">&#9655;</span></a>
       <span>&middot;</span>
       <a class="infosLink">Cookies</a>
       <span>&middot;</span> 
@@ -138,20 +139,23 @@
       <div class="lowerPS">
         <button class="postOptions">
           <img class="postOptIcons" src="/images/main-section/post-section/live.png">
-          <p class="postOptLabels">Live video</p>
+          <span class="postOptLabels">Live video</span>
         </button>
         <button class="postOptions">
           <img class="postOptIcons2" src="/images/main-section/post-section/media.png">
-          <p class="postOptLabels">Photo/video</p>
+          <span class="postOptLabels">Photo/video</span>
         </button>  
         <button class="postOptions">
           <img class="postOptIcons" src="/images/main-section/post-section/feeling.png">
-          <p class="postOptLabels">Feeling/activity</p>
+          <span class="postOptLabels">Feeling/activity</span>
         </button>  
       </div>
     </div>
     <!--Stories Section-->
-    <div class="storiesSection">
+    <div class="storiesSection"> <!--Keeps shadow from overflow hidden property in the Clip div.-->
+      <div class="clip">
+
+      </div>
       <!--Create Story-->
       <div class="createStoryCard">
         <div class="userPhotoCont">
@@ -159,7 +163,7 @@
           <img class="userPhotoStory" src="images\general\user-photo.jpg">
         </div>
         <div class="createStoryLabelCont">
-          <p class="createStoryLabel">Create story</p>
+          <span class="createStoryLabel">Create story</span>
         </div>
         <div class="createStoryIconCont">
           <img class="createStoryIcon" src="images\main-section\stories-section\plus.png">
@@ -174,7 +178,7 @@
           <div class="friendsStoryGradient"></div>
           <img class="friendsStoryImg" src="images\main-section\stories-section\storypic1.jpg">
         </div>
-        <p class="friendsStoryName">Paul Justin Ferrer</p>
+        <span class="friendsStoryName">Paul Justin Ferrer</span>
       </div>
       <div class="storyCards">
         <div class="friendsProfilePicCont">
@@ -184,7 +188,7 @@
           <div class="friendsStoryGradient"></div>
           <img class="friendsStoryImg" src="images\main-section\stories-section\storypic2.jpg">
         </div>
-        <p class="friendsStoryName">Peter Parker</p>
+        <span class="friendsStoryName">Peter Parker</span>
       </div>
       <div class="storyCards">
         <div class="friendsProfilePicCont">
@@ -194,7 +198,7 @@
           <div class="friendsStoryGradient"></div>
           <img class="friendsStoryImg" src="images\main-section\stories-section\storypic3.jpg">
         </div>
-        <p class="friendsStoryName">Captain Steve Rogers</p>
+        <span class="friendsStoryName">Captain Steve Rogers</span>
       </div>
       <div class="storyCards">
         <div class="friendsProfilePicCont">
@@ -204,7 +208,7 @@
           <div class="friendsStoryGradient"></div>
           <img class="friendsStoryImg" src="images\main-section\stories-section\storypic4.jpg">
         </div>
-        <p class="friendsStoryName">Tony Stark</p>
+        <span class="friendsStoryName">Tony Stark</span>
       </div>
       <div class="storyCards">
         <div class="friendsProfilePicCont">
@@ -214,10 +218,63 @@
           <div class="friendsStoryGradient"></div>
           <img class="friendsStoryImg" src="images\main-section\stories-section\storypic5.jpg">
         </div>
-        <p class="friendsStoryName">Thor Odinson</p>
+        <span class="friendsStoryName">Thor Odinson</span>
       </div>
+    </div>
     <!--Feed Section-->
     <div class="feedSection">
+
+    </div>
+  </div>
+  <!--Right Sidebar-->
+  <div class="rightSbCont">
+    <!--Sponsors Section-->
+    <div class="sponsorsCont">
+      <span class="rightSbSections"></span>
+      <div class="sponsorDispCont">   <!--Hover and Display-->
+        <img class="sponsorImg" src="">
+        <div class="sponsorTexts">
+          <span class="sponsorTitle"></span>
+          <span class="sponsorDomain"></span>
+        </div>
+      </div>
+    </div>
+    <!--Friend Requests Section-->
+    <div class="friendReqsCont">
+      <div class="friendReqsLabelConts">
+        <span class="rightSbSections"></span>
+        <span class="friendReqsSeeAll"></span>
+      </div>
+      <div class="friendReqsDispCont"></div> <!--Hover and Display-->
+      <img class="friendReqsPhoto" src="">
+      <div class="friendReqsDispCol">
+        <div class="friendReqsDetailsCont">
+          <span class="friendReqsName"></span>
+          <span class="friendReqsHours"></span>
+        </div>
+        <div class="friendReqsButtonCont">
+          <button class="friendReqsConfirm"></button>
+          <button class=friendReqsDelete></button>
+        </div>
+      </div>
+    </div>
+    <!--Birthdays Section-->
+    <div class="birthdaysCont">
+      <span class="rightSbSections"></span>
+      <div class="birthdayDisplayCont">
+        <img class="birthdayIcon" src="">
+        <div class="birthdayTexts">
+          <span class="birthdayName"></span>
+          <span class="birthdaySentence"></span>
+        </div>
+      </div>
+    </div>
+    <!--Contacts Section-->
+    <div class="contactsCont">
+      
+    </div>
+    <!--Group Chats Section-->
+    <div class="gcCont">
 
     </div>
   </div>
