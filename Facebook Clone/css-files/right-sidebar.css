@@ -1,0 +1,82 @@
+.rightSbCont{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: fixed;
+  right: 0;
+  top: 56px;
+  padding-top: 21px;
+  bottom: 0;
+  width: 360px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sponsorsSectionCont{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.rightSbSectionsLabel{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(101, 104, 108);
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 9px;
+  margin-left: 16px;
+}
+
+.sponsorDispCont{
+  width: 328px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 8px 16px 8px 16px;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sponsorDispCont:hover{
+  border-radius: 5px;
+  background-color: rgba(218, 220, 222);
+}
+
+.sponsorImg{
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  object-position: center;
+  border: solid 1px rgba(208, 211, 215);
+  border-radius: 8px;
+}
+
+.sponsorTexts{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 136px;
+}
+
+.sponsorTitle{
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  margin: 0;
+}
+
+.sponsorDomain{
+  font-size: 13px;
+  color: rgba(122, 126, 129);
+  margin: 0;
+}
+
+.rightSbSectionsEndLine{
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+  width: 328px;
+  border-bottom: solid 1px rgba(208, 211, 215);
+}
