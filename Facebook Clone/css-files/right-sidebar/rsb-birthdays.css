@@ -1,0 +1,29 @@
+.birthdayDisplayCont{
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.birthdayIcon{
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+
+.birthdayName{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.birthdayName:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.birthdaySentence{
+  font-size: 15px;
+  margin: 0;
+}

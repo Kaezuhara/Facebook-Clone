@@ -1,7 +1,6 @@
 .friendReqsUpperRow{
   display: flex;
   justify-content: space-between;
-  padding-top: 12px;
 }
 
 .friendReqsSeeAll{
@@ -17,10 +16,12 @@
   padding: 8px 8px 7px 8px;
   margin-left: 8px;
   border-radius: 8px;
+  z-index: 1;
 }
 
 .friendReqsDispCont:hover{
   background-color: rgb(229, 231, 234);
+  cursor: pointer;
 }
 
 .friendReqsDispCont:hover .friendReqsDeleteButton{
@@ -126,6 +127,10 @@
   width: 268px;
 }
 
+.friendReqsButtonsCont .friendReqsDispC{
+  background-color: transparent;
+}
+
 .friendReqsConfirmCont, .friendReqsDeleteCont{
   display: flex;
   justify-content: left;
@@ -160,7 +165,7 @@
 }
 
 .friendReqsDeleteButton{
-  background-color: rgba(226, 229, 233);
+  background-color: rgb(226, 229, 233);
 }
 
 .friendReqsConfirmLabel, .friendReqsDeleteLabel{
@@ -168,6 +173,7 @@
   font-size: 15px;
   font-weight: 500;
   position: absolute;
+  z-index: 2;
 }
 
 .friendReqsConfirmLabel{
