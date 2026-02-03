@@ -71,6 +71,7 @@
   width: 34px;
   border: 1px solid rgb(227, 227, 227);
   border-radius: 36px;
+  margin-right: 12px;
 }
 
 .contactsMetaPhoto{
@@ -87,10 +88,12 @@
   border-radius: 18px;
   object-fit: cover;
   object-fit: center;
+  margin-right: 12px;
 }
 
 .contactsName{
   font-size: 15px;
   font-weight: 500;
-  margin-left: 12px;
+  width: 280px; 
+  margin-top: -4px;
 }

@@ -1,0 +1,58 @@
+.contactsGroupChatsPhoto{
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  object-fit: cover;
+  object-fit: center;
+  margin-right: 12px; 
+} 
+
+.contactsUnsetGrpPhotoCont{
+  height: 36px;
+  width: 36px;
+  margin-right: 12px;
+  position: relative;
+}
+
+.contactsGrpFriendsPhoto1{
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.contactsGrpFriendsPhoto2{
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.gcCreateButtonCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  background-color :rgb(226, 229, 233);
+  margin-right: 12px; 
+}
+
+.gcCreateIcon{
+  height: 14px;
+  width: 14px;  
+}
+
+.contactsCont:hover .gcCreateButtonCont{
+  background-color: rgb(214, 217, 221);
+}
