@@ -1,0 +1,38 @@
+.rightSbCont{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: fixed;
+  right: 0;
+  top: 56px;
+  padding-top: 21px;
+  bottom: 0;
+  width: 360px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sectionsCont{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.rightSbSectionsEndLine{
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+  width: 328px;
+  border-bottom: solid 1px rgba(208, 211, 215);
+}
+
+.rightSbSectionsLabel{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(101, 104, 108);
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 9px;
+  margin-left: 16px;
+}

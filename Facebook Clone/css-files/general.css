@@ -8,12 +8,3 @@ body{
 span, p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.mainSection{
-  display: flex;
-  flex-direction: column;
-  width: 680px;
-  height: 3000px;
-  justify-self: center;
-  margin-top: 72px;
-}

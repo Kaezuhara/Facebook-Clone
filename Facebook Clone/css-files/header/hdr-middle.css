@@ -1,0 +1,41 @@
+.middleHdrCont{
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 13px;
+}
+
+.homeCont, .friendsCont, .reelsCont, .gamesCont{
+  height: 53px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeIcon{
+  height: 23px;
+  width: 23px;
+}
+
+.friendsIcon{
+  height: 30px;
+  width: 30px;
+}
+
+.reelsIcon{
+  height: 28px;
+  width: 28px;
+}
+
+.gamesIcon{
+  height: 25px;
+  width: 25px;
+}
+
+.homeCont{
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  border-color: rgb(8, 102, 225);
+}

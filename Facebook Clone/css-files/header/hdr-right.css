@@ -1,0 +1,66 @@
+.rightHdrCont{
+  width: 300px;
+  height: 40px;
+  padding: 8px 16px 8px 0px;
+  display: flex;
+  gap: 8px;
+  justify-content: right;
+  justify-items: center;
+  align-items: middle;
+}
+
+.rightIconsCont{
+  height: 40px;
+  width: 40px;
+  background-color: rgba(226, 229, 233);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuIcon{
+  height: 18px;
+  width: 18px;
+}
+
+.messengerIcon{
+  height: 20px;
+  width: 20px;
+}
+
+.notifIcon{
+  height: 20px;
+  width: 20px;
+}
+
+.account{
+  position: relative;
+}
+
+.userPhoto{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.arrowDownCont{
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(229, 229, 229);
+  bottom: -2px;
+  right: -2px;
+  border-radius: 50%;
+  border: 2px solid rgb(248, 248, 248);
+}
+
+.arrowDown{
+  height: 8px;
+  width: 8px;
+}

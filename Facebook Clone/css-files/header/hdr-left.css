@@ -1,0 +1,46 @@
+.leftHdrCont{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 8px 0px 8px 15px;
+}
+
+.fbIcon{
+  height: 40px;
+  margin-right: 8px;
+}
+
+.searchButton{
+  display: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 1240px){
+  .searchButton{
+    display: block;
+    height: 40px;
+    width: 240px;
+    padding-left: 35px;
+    font-size: 15px;
+    background-color: rgba(240, 242, 245);
+    border: none;
+    border-radius: 20px;
+    margin-left: -38px;
+  }
+}
+
+.searchIconCont{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(240, 242, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon{
+  height: 15px;
+  width: 15px;
+  z-index: 3;
+}

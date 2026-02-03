@@ -1,0 +1,8 @@
+.mainSection{
+  display: flex;
+  flex-direction: column;
+  width: 680px;
+  height: 3000px;
+  justify-self: center;
+  margin-top: 72px;
+}
