@@ -1,0 +1,96 @@
+.contactsOpacity{
+  opacity: 50%;
+}
+
+.contactsUpperRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 342px;
+  margin-right: 10px;
+}
+
+.contactsRightIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.contactsIconsCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+}
+
+.contactsIconsCont:hover{
+  background-color: rgba(229, 231, 234);
+}
+
+.contactsSearchIcon{
+  height: 15px;
+  width: 15px;
+}
+
+.contactsSearchIcon:hover{
+  cursor: pointer;
+}
+
+.contactsOptsIcon{
+  height: 16px;
+  width: 16px;
+}
+
+.contactsOptsIcon:hover{
+  cursor: pointer;
+}
+
+.contactsCont{
+  display: flex;
+  align-items: center;
+  width: 328px;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.contactsCont:hover{
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+
+.contactsMetaPhotoCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 34px;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 36px;
+}
+
+.contactsMetaPhoto{
+  height: 34px;
+  width: 34px;
+  object-fit: center;
+  object-position: center;
+  border-radius: 100%;
+}
+
+.contactsFriendsPhoto{
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  object-fit: cover;
+  object-fit: center;
+}
+
+.contactsName{
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 12px;
+}

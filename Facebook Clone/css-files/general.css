@@ -9,3 +9,9 @@ body{
 span, p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.verifiedIcon{
+  height: 15px;
+  width: 15px;
+  margin-left: 3px;
+}
