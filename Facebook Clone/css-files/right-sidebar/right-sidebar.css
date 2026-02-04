@@ -6,10 +6,23 @@
   right: 0;
   top: 56px;
   padding-top: 9px;
-  bottom: 0;
+  bottom: 0;  
   width: 360px;
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+.rightSbCont::-webkit-scrollbar {
+  width: 8px;
+}
+
+.rightSbCont::-webkit-scrollbar-thumb {
+  background-color: rgb(188, 192, 196);
+  border-radius: 4px;
+}
+
+.rightSbCont::-webkit-scrollbar-track{
+  background-color: transparent;
 }
 
 .sectionsCont{

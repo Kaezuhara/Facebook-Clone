@@ -2,15 +2,15 @@
   position: fixed;
   width: 343px;
   left: 8px;
-  top: 73px;
+  top: 72px;
 }
 
 .leftSbItems{
   display: flex;
   align-items: center;
-  width: 343px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  width: 340px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .leftSbItems:hover{
@@ -18,27 +18,28 @@
   border-radius: 8px;
 }
 
-.leftSbIcons{
-  height: 36px;
-  width: 36px;
-  border-radius: 18px;
-  margin-left: 7px;
-  margin-right: 13px; 
+.leftSbIconsCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding-left: 6px;
+  padding-right: 6px; 
 }
 
 .leftSbIcons{
   height: 36px;
   width: 36px;
   border-radius: 18px;
-  margin-left: 7px;
-  margin-right: 13px; 
 }
 
 .leftSbLabels{
   font-size: 15px;
   font-weight: 500;
   margin: 0;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
+  margin-left: 4px;
 }
 
 .leftSbArrow{
@@ -54,6 +55,5 @@
   align-items: center;
   background-color: rgba(226, 229, 233);
   border-radius: 18px;
-  margin-left: 7px;
-  margin-right: 13px; 
+  margin: 2px 8px 2px 8px;
 }

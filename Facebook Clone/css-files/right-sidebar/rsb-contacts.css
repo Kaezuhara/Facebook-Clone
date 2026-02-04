@@ -1,5 +1,5 @@
 .contactsOpacity{
-  opacity: 50%;
+  opacity: 33%;
 }
 
 .contactsUpperRow{
@@ -59,7 +59,7 @@
 }
 
 .contactsCont:hover{
-  background-color: rgb(233, 233, 233);
+  background-color: rgb(229, 231, 234);
   cursor: pointer;
 }
 
