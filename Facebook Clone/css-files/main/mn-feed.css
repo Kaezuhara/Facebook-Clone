@@ -1,16 +1,18 @@
 .feedSection{
   display: flex;
+  flex-direction: column;
   width: 680px;
   margin-bottom: 16px;
 }
 
 .feedCards{
-  height: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
   background-color: lightgray;
   border-radius: 10px;
+  box-shadow: 0px 1px 1px 1px rgba(101, 104, 108, 0.1);
+  margin-bottom: 12px;
 }
 
 /*FEED UPPER PART*/
@@ -69,7 +71,7 @@
 
 .feedAuthorLowerRow{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   gap: 5px;
   font-size: 13px;
@@ -120,8 +122,7 @@
 /*FEED LOWER PART*/
 
 .feedCardsLower{
-  width: 656px;
-  padding: 12px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 10px;
@@ -130,7 +131,119 @@
 }
 
 .feedStatsRow{
+  padding-bottom: 8px;
+  margin: 5px 12px 0px 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgb(208, 211, 215);
+  position: relative;
+}
+
+.feedStatsLeft{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedStatsReactionsCont{
+  width: 64px;
+}
+
+.feedStatsReactionsRing1, .feedStatsReactionsRing2, .feedStatsReactionsRing3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22px;
+  width: 22px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+}
+
+.feedStatsReactionsRing1{
+  z-index: 4;
+  left: 0px;
+}
+
+.feedStatsReactionsRing2{
+  z-index: 3;
+  left: 18px;
+}
+
+.feedStatsReactionsRing3{
+  z-index: 2;
+  left: 36px;
+}
+
+.feedStatsReactionsIcon1, .feedStatsReactionsIcon2, .feedStatsReactionsIcon3{
+  height: 18px;
+  width: 18px;
+}
+
+.feedStatsCount{
+  font-size: 15px;
+  color: rgb(101, 104, 108);
+}
+
+.feedStatsCount:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.feedStatsRight{
+  display: flex;
+  gap: 10px;
+}
+
+.feedActionsRowCont{
+  height: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin: 4px 12px;
+}
+
+.feedActionsConts{
+  height: 32px;
+  width: 224px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.feedActionsConts:hover{
+  cursor: pointer;
+  background-color: rgb(242, 242, 242);
+}
+
+.feedActionsIcons{
+  height: 20px;
+  width: 20px;
+  padding-right: 8px;
+}
+
+.feedActionsLabel{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(101,104,108);
+  margin-top: -2px;
+}
+
+.feedCardsMiddle{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(208, 211, 215);
+}
+
+.feedMedia{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }

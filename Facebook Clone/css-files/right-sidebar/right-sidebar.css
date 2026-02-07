@@ -37,9 +37,9 @@
 .rightSbSectionsEndLine{
   position: absolute;
   bottom: 0;
-  right: 0px;
-  width: 330px;
-  border-bottom: solid 1px rgba(208, 211, 215);
+  right: 8px;
+  width: 328px;
+  border-bottom: 1px solid rgba(208, 211, 215);
 }
 
 .rightSbSectionsLabel{
