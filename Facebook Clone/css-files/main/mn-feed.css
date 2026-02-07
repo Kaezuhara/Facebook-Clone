@@ -1,7 +1,136 @@
 .feedSection{
   display: flex;
   width: 680px;
-  height: 2000px;
   margin-bottom: 16px;
-  background-color: gray;
+}
+
+.feedCards{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+/*FEED UPPER PART*/
+
+.feedCardsUpper{
+  width: 656px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+}
+
+.feedInfosRow{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedInfosLeftCont{
+  display: flex;
+  flex-direction: row;
+}
+
+.feedAuthorPhoto{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 10px;
+}
+
+.feedAuthorPhoto:hover{
+  cursor: pointer;
+}
+
+.feedAuthorUpperRow{
+  display: flex;
+  gap: 5px;
+}
+
+.feedAuthorName{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.feedAuthorFollow{
+  font-size: 15px;
+  color: rgb(0,100,209);
+  font-weight: 500;
+}
+
+.feedAuthorLowerRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: rgb(101, 104, 108);
+}
+
+.feedAuthorName:hover, .feedAuthorFollow:hover, .feedAuthorDate:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.feedAuthorPrivacyIcon{
+  height: 15px;
+  width: 15px;
+}
+
+.feedInfosRightCont{
+  display: flex;
+}
+
+.feedInfosRightIconsCont{
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedInfosRightIconsCont:hover{
+  cursor: pointer;
+  background-color: rgb(242, 242, 242);
+}
+
+.feedInfosIcons, .feedInfosIcons{
+  height: 15px;
+  width: 15px;
+}
+
+.feedCaptionCont{
+  margin-top: 5px;
+}
+
+.feedCaptionTexts{
+  font-size: 15px;
+}
+
+/*FEED LOWER PART*/
+
+.feedCardsLower{
+  width: 656px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+}
+
+.feedStatsRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
