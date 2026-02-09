@@ -1,7 +1,7 @@
 .feedSection{
   display: flex;
   flex-direction: column;
-  width: 680px;
+  width: 100%;
   margin-bottom: 16px;
 }
 
@@ -18,13 +18,14 @@
 /*FEED UPPER PART*/
 
 .feedCardsUpper{
-  width: 656px;
+  width: 100%;
   padding: 12px;
   display: flex;
   flex-direction: column;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: white;
+  box-sizing: border-box;
 }
 
 .feedInfosRow{

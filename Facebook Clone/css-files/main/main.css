@@ -1,8 +1,15 @@
 .mainSection{
   display: flex;
-  flex-direction: column;
-  width: 680px;
-  height: 3000px;
-  justify-self: center;
-  margin-top: 72px;
+}
+
+@media (max-width: 899px){
+  .mainSection{
+    justify-content: center;
+  }
+}
+
+@media (min-width: 900px){
+  .mainSection{
+    justify-content: space-between;
+  }
 }
