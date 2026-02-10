@@ -6,6 +6,12 @@
   gap: 13px;
 }
 
+@media (max-width: 700px){
+  .middleHdrCont{
+    display: none;
+  }
+}
+
 .homeCont, .friendsCont, .reelsCont, .gamesCont{
   height: 53px;
   width: 125px;

@@ -1,20 +1,24 @@
 .rightSbCont{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  position: fixed;
-  right: 0;
+  position: sticky;
   top: 56px;
-  padding-top: 9px;
-  bottom: 0;  
-  width: 360px;
+  height: calc(100vh - 56px);
+  position: sticky;
+  padding: 9px 8px 0px 0px;
   overflow-x: hidden;
   overflow-y: auto;
+  box-sizing: border-box;
 }
 
 @media (max-width: 899px){
   .rightSbCont{
     display: none;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1099px){
+  .rightSbCont{
+    min-width: 280px;
+    max-width: 355px;
   }
 }
 
@@ -42,10 +46,11 @@
 
 .rightSbSectionsEndLine{
   position: absolute;
+  left: 16px;
+  right: 0;
   bottom: 0;
-  right: 8px;
-  width: 328px;
   border-bottom: 1px solid rgba(208, 211, 215);
+  box-sizing: border-box;
 }
 
 .rightSbSectionsLabel{

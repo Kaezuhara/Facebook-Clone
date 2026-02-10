@@ -7,16 +7,16 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(0, 100, 209);
   font-size: 15px;
-  padding-right: 16px;
 }
 
 .friendReqsDispCont{
   display: flex;
-  width: 328px;
-  padding: 8px 8px 7px 8px;
+  width: 100%;
+  padding: 6px 8px 6px 8px;
   margin-left: 8px;
   border-radius: 8px;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .friendReqsDispCont:hover{
@@ -41,11 +41,18 @@
 }
 
 .friendReqsDispRightCol{
-  width: 256px;
   display: flex;
   flex-direction: column;
   padding-left: 12px;
   margin-top: -2px;
+}
+
+@media (min-width: 900px) and (max-width: 1099px){
+  .friendReqsDispRightCol{
+    min-width: 176px;
+    max-width: 250px;
+    width: 100%;
+  }
 }
 
 .friendReqsDetailsCont{
@@ -124,65 +131,32 @@
   justify-content: left;
   align-items: center;
   height: 44px;
-  width: 268px;
-}
-
-.friendReqsButtonsCont .friendReqsDispC{
-  background-color: transparent;
-}
-
-.friendReqsConfirmCont, .friendReqsDeleteCont{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  height: 36px;
-  width: 124px;
-  border-radius: 8px;
-  position: relative;
-}
-
-.friendReqsConfirmCont{
-  margin-right: 4px;
-}
-
-.friendReqsDeleteCont{
-  margin-left: 4px;
+  width: 100%;
 }
 
 .friendReqsConfirmButton, .friendReqsDeleteButton{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 36px;
   display: flex;
-  flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
   border: none;
   border-radius: 8px;
+  width: 50%;
+}
+.friendReqsConfirmButton:hover, .friendReqsDeleteButton:hover{
+  cursor: pointer;
 }
 
 .friendReqsConfirmButton{
+  color: white;
   background-color: rgb(8, 102, 255);
+  margin-right: 4px;
 }
 
 .friendReqsDeleteButton{
   background-color: rgb(226, 229, 233);
-}
-
-.friendReqsConfirmLabel, .friendReqsDeleteLabel{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  position: absolute;
-  z-index: 2;
-}
-
-.friendReqsConfirmLabel{
-  color: white;
-  left: 35px;
-  top: 6px;
-}
-
-.friendReqsDeleteLabel{
-  left: 40px;
-  top: 6px;
+  margin-left: 4px;
 }
