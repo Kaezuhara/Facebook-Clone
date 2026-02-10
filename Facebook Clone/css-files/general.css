@@ -30,6 +30,11 @@ span, p{
   bottom: 16px;
 }
 
+.createMessageCont:hover{
+  cursor: pointer;
+  background-color: rgb(242, 242, 242);
+}
+
 .createMessageIcon{
   height: 18px;
   width: 18px;

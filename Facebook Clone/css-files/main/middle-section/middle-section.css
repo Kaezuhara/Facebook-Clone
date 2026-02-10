@@ -19,7 +19,6 @@
     min-width: 620px; /* Ensures the width starts at 620px and doesn't shrink below it */
     max-width: 744px; /* Prevents the width from growing beyond 744px */
     padding: 0 32px;
-    box-sizing: border-box;
   }
 }
 
@@ -28,6 +27,5 @@
     min-width: 540px;
     max-width: 744px;
     padding: 0px 32px;
-    width: 100%;
   }
 }

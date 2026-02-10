@@ -1,8 +1,15 @@
 .leftSbCont{
-  position: fixed;
-  width: 343px;
-  left: 8px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
   top: 72px;
+  bottom: 0px;
+  left: 0px;
+  min-width: 280px;
+  max-width: 360px;
+  width: 100%;
+  box-sizing: border-box;
+  height: calc(100vh - 72px); /* Make sure it covers the full height of the page */
 }
 
 @media (max-width: 1099px){
@@ -11,15 +18,32 @@
   }
 }
 
-.leftSbItems{
+.leftSbUpperCont{
   display: flex;
-  align-items: center;
-  width: 340px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 8px;
 }
 
-.leftSbItems:hover{
+/*
+.leftSbCont{
+  position: fixed;
+  width: 343px;
+  left: 8px;
+  top: 72px;
+}
+*/
+
+.leftSbItems, .leftSbArrowItem{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 6px 0px;
+}
+
+.leftSbItems:hover, .leftSbArrowItem:hover{
+  cursor: pointer;
   background-color: rgba(230, 232, 234);
   border-radius: 8px;
 }
@@ -65,8 +89,27 @@
   margin: 2px 8px 2px 8px;
 }
 
+.leftSbItems:hover .leftSbArrowBg{
+  background-color: rgba(214, 217, 221);
+}
+
 /*BOTTOM PART*/
 
+.leftSbLowerCont{
+  width: 100%;
+  padding: 16px 15px;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1099px){
+  .infosCont{
+    display: none;
+  }
+}
+
+/*
 .infosCont{
   position: fixed;
   width: 330px;
@@ -75,12 +118,18 @@
   padding: 0px 16px 12px 16px;
   line-height: 18px;
 }
+*/
 
 .infosTexts{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
   font-weight: 500;
   color: rgb(103, 103, 103);  
+}
+
+.infosLink:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .infosAdChoicesSymbol{

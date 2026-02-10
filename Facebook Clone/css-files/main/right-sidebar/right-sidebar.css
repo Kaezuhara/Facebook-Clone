@@ -2,23 +2,17 @@
   position: sticky;
   top: 56px;
   height: calc(100vh - 56px);
-  position: sticky;
   padding: 9px 8px 0px 0px;
   overflow-x: hidden;
   overflow-y: auto;
   box-sizing: border-box;
+  min-width: 280px;
+  max-width: 360px;
 }
 
 @media (max-width: 899px){
   .rightSbCont{
     display: none;
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1099px){
-  .rightSbCont{
-    min-width: 280px;
-    max-width: 355px;
   }
 }
 

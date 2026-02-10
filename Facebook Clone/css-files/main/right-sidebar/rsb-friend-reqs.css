@@ -47,7 +47,7 @@
   margin-top: -2px;
 }
 
-@media (min-width: 900px) and (max-width: 1099px){
+@media (min-width: 900px){
   .friendReqsDispRightCol{
     min-width: 176px;
     max-width: 250px;
@@ -146,6 +146,7 @@
   border-radius: 8px;
   width: 50%;
 }
+
 .friendReqsConfirmButton:hover, .friendReqsDeleteButton:hover{
   cursor: pointer;
 }

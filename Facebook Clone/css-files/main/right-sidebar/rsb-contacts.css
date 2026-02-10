@@ -90,6 +90,25 @@
   margin-right: 12px;
 }
 
+.contactsPhotoStoryRing{
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(8, 102, 255);
+  border-radius: 100%;
+  margin-right: 12px;
+}
+
+.contactsFriendsPhotoStory{
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-fit: center;
+}
+
 .contactsName{
   font-size: 15px;
   font-weight: 500;
