@@ -1,14 +1,21 @@
 .middleHdrCont{
   height: 56px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 13px;
+  gap: 12px;
+  width: 100%;
 }
 
 @media (max-width: 700px){
   .middleHdrCont{
     display: none;
+  }
+}
+
+@media (min-width: 700px){
+  .homeCont, .friendsCont, .reelsCont, .gamesCont{
+    width: 25%;
   }
 }
 

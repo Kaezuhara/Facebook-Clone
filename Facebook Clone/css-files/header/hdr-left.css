@@ -1,8 +1,9 @@
 .leftHdrCont{
-  width: 300px;
+  width: 320px;
   display: flex;
   align-items: center;
   padding: 8px 0px 8px 15px;
+  box-sizing: border-box;
 }
 
 .fbIcon{
@@ -11,21 +12,24 @@
 }
 
 .searchButton{
-  display: none;
+  display: block;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  width: 240px;
+  padding-left: 35px;
+  font-size: 15px;
+  background-color: rgba(240, 242, 245);
+  border: none;
+  border-radius: 20px;
+  margin-left: -38px;
 }
 
-@media (min-width: 1240px){
+@media (max-width: 1259px){
+  .leftHdrCont{
+    width: 112px;
+  }
   .searchButton{
-    display: block;
-    height: 40px;
-    width: 240px;
-    padding-left: 35px;
-    font-size: 15px;
-    background-color: rgba(240, 242, 245);
-    border: none;
-    border-radius: 20px;
-    margin-left: -38px;
+    display: none;
   }
 }
 
