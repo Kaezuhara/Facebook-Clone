@@ -14,6 +14,10 @@
   background-color: rgba(218, 220, 222);
 }
 
+.sponsorDispCont:hover .sponsorImg{
+  filter: brightness(95%);
+}
+
 .sponsorImg{
   object-fit: cover;
   object-position: center;

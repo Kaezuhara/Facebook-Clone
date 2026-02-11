@@ -12,11 +12,16 @@
 .rightIconsCont{
   height: 40px;
   width: 40px;
-  background-color: rgba(226, 229, 233);
+  background-color: rgb(226, 229, 233);
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rightIconsCont:hover{
+  cursor: pointer;
+  background-color: rgb(214, 217, 221);
 }
 
 .menuIcon{
@@ -34,18 +39,6 @@
   width: 20px;
 }
 
-.account{
-  position: relative;
-}
-
-.userPhoto{
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
-  object-fit: cover;
-  object-position: center;
-}
-
 .arrowDownCont{
   height: 12px;
   width: 12px;
@@ -58,6 +51,10 @@
   right: -2px;
   border-radius: 50%;
   border: 2px solid rgb(248, 248, 248);
+}
+
+.arrowDownCont:hover{
+  cursor: pointer;
 }
 
 .arrowDown{

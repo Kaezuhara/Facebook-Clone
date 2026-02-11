@@ -51,7 +51,7 @@
       <div class="rightIconsCont">
         <img class="notifIcon" src="/images/header/notification.png">
       </div>
-      <div class="account">
+      <div class="userPhotoCont">
         <img class="userPhoto" src="/images/general/user-photo.jpg">
         <div class="arrowDownCont">
           <img class="arrowDown" src="/images/general/arrow-down.png">
@@ -176,7 +176,9 @@
       <!--Post Section-->
       <div class="postSection">
         <div class="upperPS">
-          <img class="userPhoto" src="/images/general/user-photo.jpg">
+          <div class="userPhotoCont">
+            <img class="userPhoto" src="/images/general/user-photo.jpg">
+          </div>
           <div class="postBar">
             <span class="postBarLabel">What's on your mind, John Doe?</span>
           </div>
@@ -203,7 +205,7 @@
         </button>
         <!--Create Story-->
         <div class="createStoryCard">
-          <div class="userPhotoCont">
+          <div class="userStoryPhotoCont">
             <div class="userPhotoGradient"></div>
             <img class="userPhotoStory" src="images\general\user-photo.jpg">
           </div>
@@ -279,16 +281,172 @@
           <div class="feedCardsUpper">
             <div class="feedInfosRow">
               <div class="feedInfosLeftCont">
-                <img class="feedAuthorPhoto" src="images\friends-photo\scott-lang.avif">
+                <div class="feedAuthorPhotoStoryRing">
+                  <img class="feedAuthorPhotoStory" src="images\friends-photo\bucky-barnes.jpg">
+                </div>
                 <div> <!--Feed Author Info Cont-->
                   <div class="feedAuthorUpperRow">
-                    <span class="feedAuthorName">Scott Lang</span>
-                      <!--<img class="veriefiedIcon" src="">-->
+                    <span class="feedAuthorName">Bucky Barnes</span>
                     <span>&middot;</span>
                     <span class="feedAuthorFollow">Follow</span>
                   </div>
                   <div class="feedAuthorLowerRow">
-                    <span class="feedAuthorDate">February 5 at 4:38 PM</span>
+                    <span class="feedAuthorDate">February 4 at 12:24 PM</span>
+                    <span>&middot;</span>
+                    <img class="feedAuthorPrivacyIcon" src="images\middle-section\feed-section\feed-icons\public-privacy.png">
+                  </div>
+                </div>
+              </div>
+              <div class="feedInfosRightCont">
+                <div class="feedInfosRightIconsCont">
+                  <img class="feedInfosIcons" src="images\general\ellipsis.png">
+                </div>
+                <div class="feedInfosRightIconsCont">
+                  <img class="feedInfosIcons" src="images\middle-section\feed-section\feed-icons\close.png">
+                </div>   
+              </div>
+            </div>
+            <!--Feed Captions-->
+            <div class="feedCaptionCont">
+              <span class="feedCaptionTexts">Enjoying my time here in Berlin.</span>
+            </div>
+          </div>
+          <!--Feed Media Posts-->
+          <div class="feedCardsMiddle">
+            <img class="feedMedia" src="images\middle-section\feed-section\feed-media\berlin.avif">
+          </div>
+          <!--Reactions, Comments, Shares-->
+          <div class="feedCardsLower">
+            <!--Stats-->
+            <div class="feedStatsRow">
+              <div class="feedStatsLeft">
+                <div class="feedStatsReactionsCont">
+                  <div class="feedStatsReactionsRing1">
+                    <img class="feedStatsReactionsIcon1" src="images\middle-section\feed-section\feed-icons\heart-react.png">
+                  </div>
+                  <div class="feedStatsReactionsRing2">
+                    <img class="feedStatsReactionsIcon2" src="images\middle-section\feed-section\feed-icons\like-react.png">
+                  </div>
+                  <div class="feedStatsReactionsRing3">
+                    <img class="feedStatsReactionsIcon3" src="images\middle-section\feed-section\feed-icons\wow-react.png">
+                  </div>
+                </div>
+                <span class="feedStatsCount">Captain Steve Rogers and 157 others</span>
+              </div>
+              <div class="feedStatsRight">
+                <span class="feedStatsCount">14 comments</span>
+                <span class="feedStatsCount">5 shares</span>
+              </div>
+            </div>
+            <!--Actions-->
+            <div class="feedActionsRowCont">
+              <div class="feedActionsConts">
+                <img class="feedActionsIcons" src="images\middle-section\feed-section\feed-icons\like-action.png">
+                <span class="feedActionsLabel">Like</span>
+              </div>
+              <div class="feedActionsConts">
+                <img class="feedActionsIcons" src="images\middle-section\feed-section\feed-icons\comment-action.png">
+                <span class="feedActionsLabel">Comment</span>
+              </div>
+              <div class="feedActionsConts">
+                <img class="feedActionsIcons" src="images\middle-section\feed-section\feed-icons\share-action.png">
+                <span class="feedActionsLabel">Share</span>
+              </div>  
+            </div>
+          </div>
+        </div>
+        <!--POST #1-->
+        <!--POST #2-->
+        <div class="feedCards">
+          <!--Author Infos, Caption-->
+          <div class="feedCardsUpper">
+            <div class="feedInfosRow">
+              <div class="feedInfosLeftCont">
+                <img class="feedAuthorPhoto" src="images\friends-photo\bruce-banner.webp">
+                <div> <!--Feed Author Info Cont-->
+                  <div class="feedAuthorUpperRow">
+                    <span class="feedAuthorName">Bruce Banner</span>
+                    <span><img class="verifiedIcon" src="images\general\verified.png"></span>
+                  </div>
+                  <div class="feedAuthorLowerRow">
+                    <span class="feedAuthorDate">February 2</span>
+                    <span>&middot;</span>
+                    <img class="feedAuthorPrivacyIcon" src="images\middle-section\feed-section\feed-icons\friends-privacy.png">
+                  </div>
+                </div>
+              </div>
+              <div class="feedInfosRightCont">
+                <div class="feedInfosRightIconsCont">
+                  <img class="feedInfosIcons" src="images\general\ellipsis.png">
+                </div>
+                <div class="feedInfosRightIconsCont">
+                  <img class="feedInfosIcons" src="images\middle-section\feed-section\feed-icons\close.png">
+                </div>   
+              </div>
+            </div>
+            <!--Feed Captions-->
+            <div class="feedCaptionCont">
+              <span class="feedCaptionTexts">Oh, take a look at this! Best tacos ever and I'm gonna gatekeep.</span>
+            </div>
+          </div>
+          <!--Feed Media Posts-->
+          <div class="feedCardsMiddle">
+            <img class="feedMedia" src="images\middle-section\feed-section\feed-media\tacos.avif">
+          </div>
+          <!--Reactions, Comments, Shares-->
+          <div class="feedCardsLower">
+            <!--Stats-->
+            <div class="feedStatsRow">
+              <div class="feedStatsLeft">
+                <div class="feedStatsReactionsCont">
+                  <div class="feedStatsReactionsRing1">
+                    <img class="feedStatsReactionsIcon1" src="images\middle-section\feed-section\feed-icons\heart-react.png">
+                  </div>
+                  <div class="feedStatsReactionsRing2">
+                    <img class="feedStatsReactionsIcon2" src="images\middle-section\feed-section\feed-icons\laugh-react.png">
+                  </div>
+                  <div class="feedStatsReactionsRing3">
+                    <img class="feedStatsReactionsIcon3" src="images\middle-section\feed-section\feed-icons\like-react.png">
+                  </div>
+                </div>
+                <span class="feedStatsCount">Peter Quill and 132 others</span>
+              </div>
+              <div class="feedStatsRight">
+                <span class="feedStatsCount">17 comments</span>
+                <span class="feedStatsCount">3 shares</span>
+              </div>
+            </div>
+            <!--Actions-->
+            <div class="feedActionsRowCont">
+              <div class="feedActionsConts">
+                <img class="feedActionsIcons" src="images\middle-section\feed-section\feed-icons\like-action.png">
+                <span class="feedActionsLabel">Like</span>
+              </div>
+              <div class="feedActionsConts">
+                <img class="feedActionsIcons" src="images\middle-section\feed-section\feed-icons\comment-action.png">
+                <span class="feedActionsLabel">Comment</span>
+              </div>
+              <div class="feedActionsConts">
+                <img class="feedActionsIcons" src="images\middle-section\feed-section\feed-icons\share-action.png">
+                <span class="feedActionsLabel">Share</span>
+              </div>  
+            </div>
+          </div>
+        </div>
+        <!--POST #2-->
+        <!--POST #3-->
+        <div class="feedCards">
+          <!--Author Infos, Caption-->
+          <div class="feedCardsUpper">
+            <div class="feedInfosRow">
+              <div class="feedInfosLeftCont">
+                <img class="feedAuthorPhoto" src="images\friends-photo\scott-lang.avif">
+                <div> <!--Feed Author Info Cont-->
+                  <div class="feedAuthorUpperRow">
+                    <span class="feedAuthorName">Scott Lang</span>
+                  </div>
+                  <div class="feedAuthorLowerRow">
+                    <span class="feedAuthorDate">7h</span>
                     <span>&middot;</span>
                     <img class="feedAuthorPrivacyIcon" src="images\middle-section\feed-section\feed-icons\public-privacy.png">
                   </div>
@@ -328,11 +486,11 @@
                     <img class="feedStatsReactionsIcon3" src="images\middle-section\feed-section\feed-icons\like-react.png">
                   </div>
                 </div>
-                <span class="feedStatsCount">Clint Barton and 182 others</span>
+                <span class="feedStatsCount">Clint Barton and 579 others</span>
               </div>
               <div class="feedStatsRight">
-                <span class="feedStatsCount">18 comments</span>
-                <span class="feedStatsCount">7 shares</span>
+                <span class="feedStatsCount">83 comments</span>
+                <span class="feedStatsCount">135 shares</span>
               </div>
             </div>
             <!--Actions-->
@@ -352,25 +510,25 @@
             </div>
           </div>
         </div>
-        <!--POST #1-->
-        <!--POST #2-->
+        <!--POST #3-->
+        <!--POST #4-->
         <div class="feedCards">
           <!--Author Infos, Caption-->
           <div class="feedCardsUpper">
             <div class="feedInfosRow">
               <div class="feedInfosLeftCont">
-                <img class="feedAuthorPhoto" src="images\friends-photo\bruce-banner.webp">
+                <div class="feedAuthorPhotoStoryRing">
+                  <img class="feedAuthorPhotoStory" src="images\friends-photo\tony-stark.jpg">
+                </div>
                 <div> <!--Feed Author Info Cont-->
                   <div class="feedAuthorUpperRow">
-                    <span class="feedAuthorName">Bruce Banner</span>
-                      <!--<img class="veriefiedIcon" src="">-->
-                    <span>&middot;</span>
-                    <span class="feedAuthorFollow">Follow</span>
+                    <span class="feedAuthorName">Tony Stark</span>
+                    <span><img class="verifiedIcon" src="images\general\verified.png"></span>
                   </div>
                   <div class="feedAuthorLowerRow">
-                    <span class="feedAuthorDate">February 2</span>
+                    <span class="feedAuthorDate">February 3 at 3:23 PM</span>
                     <span>&middot;</span>
-                    <img class="feedAuthorPrivacyIcon" src="images\middle-section\feed-section\feed-icons\friends-privacy.png">
+                    <img class="feedAuthorPrivacyIcon" src="images\middle-section\feed-section\feed-icons\public-privacy.png">
                   </div>
                 </div>
               </div>
@@ -385,12 +543,12 @@
             </div>
             <!--Feed Captions-->
             <div class="feedCaptionCont">
-              <span class="feedCaptionTexts">Oh, take a look at this! Best tacos ever and I'm gonna gatekeep.</span>
+              <span class="feedCaptionTexts">We all deserve a time off, don't we?</span>
             </div>
           </div>
           <!--Feed Media Posts-->
           <div class="feedCardsMiddle">
-            <img class="feedMedia" src="images\middle-section\feed-section\feed-media\tacos.avif">
+            <img class="feedMedia" src="images\middle-section\feed-section\feed-media\newyork.jpg">
           </div>
           <!--Reactions, Comments, Shares-->
           <div class="feedCardsLower">
@@ -399,20 +557,20 @@
               <div class="feedStatsLeft">
                 <div class="feedStatsReactionsCont">
                   <div class="feedStatsReactionsRing1">
-                    <img class="feedStatsReactionsIcon1" src="images\middle-section\feed-section\feed-icons\wow-react.png">
+                    <img class="feedStatsReactionsIcon1" src="images\middle-section\feed-section\feed-icons\heart-react.png">
                   </div>
                   <div class="feedStatsReactionsRing2">
-                    <img class="feedStatsReactionsIcon2" src="images\middle-section\feed-section\feed-icons\heart-react.png">
+                    <img class="feedStatsReactionsIcon2" src="images\middle-section\feed-section\feed-icons\wow-react.png">
                   </div>
                   <div class="feedStatsReactionsRing3">
                     <img class="feedStatsReactionsIcon3" src="images\middle-section\feed-section\feed-icons\like-react.png">
                   </div>
                 </div>
-                <span class="feedStatsCount">Bruce Banner and 214 others</span>
+                <span class="feedStatsCount">3k</span>
               </div>
               <div class="feedStatsRight">
-                <span class="feedStatsCount">18 comments</span>
-                <span class="feedStatsCount">7 shares</span>
+                <span class="feedStatsCount">143 comments</span>
+                <span class="feedStatsCount">27 shares</span>
               </div>
             </div>
             <!--Actions-->
@@ -432,7 +590,7 @@
             </div>
           </div>
         </div>
-        <!--POST #2-->
+        <!--POST #4-->
       </div>
     </div>
     <!--RIGHT SIDEBAR (SECTIONS: Sponsors, Friend Requests, Birthdays, Contacts,  Group Chats, Message Overlay)-->
@@ -549,7 +707,9 @@
           <!--Contact #5-->
           <div class="contactsCont">
             <img class="contactsFriendsPhoto" src="images\friends-photo\bruce-banner.webp">
-            <span class="contactsName">Bruce Banner</span>
+            <span class="contactsName">Bruce Banner
+              <img class="verifiedIcon" src="images\general\verified.png">
+            </span>
           </div>
           <!--Contact #6-->
           <div class="contactsCont">
@@ -561,7 +721,9 @@
             <div class="contactsPhotoStoryRing">
               <img class="contactsFriendsPhotoStory" src="images\friends-photo\tony-stark.jpg">
             </div>
-            <span class="contactsName">Tony Stark</span>
+            <span class="contactsName">Tony Stark
+              <img class="verifiedIcon" src="images\general\verified.png">
+            </span>
           </div>
           <!--Contact #8-->
           <div class="contactsCont">
@@ -580,7 +742,9 @@
             <div class="contactsPhotoStoryRing">
               <img class="contactsFriendsPhotoStory" src="images\friends-photo\steve-rogers.jpg">
             </div>
-            <span class="contactsName">Steve Rogers</span>
+            <span class="contactsName">Captain Steve Rogers
+              <img class="verifiedIcon" src="images\general\verified.png">
+            </span>
           </div>
         </div>
         <div class="rightSbSectionsEndLine"></div>

@@ -18,7 +18,7 @@
   z-index: 10;
   position: fixed;
   top: 0;
-  left: 33%;
-  right: 33%;
+  left: 10%;
+  right: 10%;
   box-sizing: border-box;
 }

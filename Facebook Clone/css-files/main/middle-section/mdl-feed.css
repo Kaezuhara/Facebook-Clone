@@ -50,8 +50,28 @@
   margin-right: 10px;
 }
 
-.feedAuthorPhoto:hover{
+.feedAuthorPhotoStoryRing{
+  height: 38px;
+  width: 38px;
+  border: 2px solid rgb(8, 102, 255);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.feedAuthorPhotoStory{
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.feedAuthorPhoto:hover, .feedAuthorPhotoStoryRing:hover{
   cursor: pointer;
+  filter: brightness(90%);
 }
 
 .feedAuthorUpperRow{
@@ -148,7 +168,11 @@
 }
 
 .feedStatsReactionsCont{
-  width: 64px;
+  width: 62px;
+}
+
+.feedStatsReactionsCont:hover{
+  cursor: pointer;
 }
 
 .feedStatsReactionsRing1, .feedStatsReactionsRing2, .feedStatsReactionsRing3{
@@ -248,4 +272,8 @@
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.feedMedia:hover{
+  cursor: pointer;
 }

@@ -97,34 +97,17 @@
 
 .leftSbLowerCont{
   width: 100%;
-  padding: 16px 15px;
+  padding: 12px 16px;
   position: absolute;
   bottom: 0;
   box-sizing: border-box;
 }
 
-@media (max-width: 1099px){
-  .infosCont{
-    display: none;
-  }
-}
-
-/*
-.infosCont{
-  position: fixed;
-  width: 330px;
-  bottom: 0px;
-  left: 0px;
-  padding: 0px 16px 12px 16px;
-  line-height: 18px;
-}
-*/
-
 .infosTexts{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
   font-weight: 500;
-  color: rgb(103, 103, 103);  
+  color: rgb(103, 103, 103);
 }
 
 .infosLink:hover{

@@ -30,6 +30,11 @@
   background-color: rgb(240, 242, 245);
 }
 
+.postBar:hover{
+  cursor: pointer;
+  background-color: rgb(227, 229, 232);
+}
+
 .postBarLabel{
   font-size: 17px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -52,11 +57,17 @@
 .postOptions{
   display: flex;
   flex: 1;
-  height: 40px;
+  height: 46px;
   justify-content: center;
   align-items: center;
   background: none;
   border: none;
+}
+
+.postOptions:hover{
+  cursor: pointer;
+  background-color: rgb(242, 242, 242);
+  border-radius: 5px;
 }
 
 .postOptIcons{

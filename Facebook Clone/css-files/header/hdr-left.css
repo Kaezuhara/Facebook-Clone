@@ -11,6 +11,10 @@
   margin-right: 8px;
 }
 
+.fbIcon:hover{
+  cursor: pointer;
+}
+
 .searchButton{
   display: block;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

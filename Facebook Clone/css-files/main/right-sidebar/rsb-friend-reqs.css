@@ -9,6 +9,11 @@
   font-size: 15px;
 }
 
+.friendReqsSeeAll:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .friendReqsDispCont{
   display: flex;
   width: 100%;
