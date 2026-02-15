@@ -76,15 +76,17 @@
   margin-right: 7px;
 }
 
-.postOptIcons2{
-  height: 35px;
-  width: 35px;
-  margin-left: -5px;
-  margin-right: 3px;
-}
-
 .postOptLabels{
   font-family: sans-serif;
   font-weight: 700;
   color: gray;
+}
+
+@media (max-width: 523px){
+  .postOptIcons{
+    margin: 0;
+  }
+  .postOptLabels{
+    display: none;
+  }
 }
