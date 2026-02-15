@@ -1,33 +1,33 @@
 .postSection{
+  width: 100%;
+  height: 123px;
+  padding: 0px 16px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding: 0px 16px;
-  height: 123px;
-  background-color: white;
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
   margin-bottom: 8px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
 }
 
 .upperPS{
-  display: flex;
   height: 64px;
   width: 100%;
+  display: flex;
   align-items: center;
   border-bottom: solid 1px rgb(229, 229, 229);
 }
 
 .postBar{
-  position: relative;
-  flex-grow: 1;
   height: 40px;
+  flex-grow: 1;
   border-radius: 20px;
-  margin-left: 8px;
   background-color: rgb(240, 242, 245);
+  margin-left: 8px;
+  position: relative;
 }
 
 .postBar:hover{
@@ -45,19 +45,19 @@
 }
 
 .lowerPS{
-  display: flex;
-  align-items: center;
   height: 40px;
   width: 100%;
   padding: 0px 16px;
+  display: flex;
+  align-items: center;
   margin-top: 8px;
   margin-bottom: 10px;
 }
 
 .postOptions{
+  height: 46px;
   display: flex;
   flex: 1;
-  height: 46px;
   justify-content: center;
   align-items: center;
   background: none;
@@ -85,7 +85,6 @@
 
 .postOptLabels{
   font-family: sans-serif;
-  font-size: 15px;
+  font-weight: 700;
   color: gray;
-  font-weight: 600;
 }

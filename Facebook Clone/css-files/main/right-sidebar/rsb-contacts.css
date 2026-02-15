@@ -3,10 +3,10 @@
 }
 
 .contactsUpperRow{
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 .contactsRightIcons{
@@ -17,16 +17,16 @@
 }
 
 .contactsIconsCont{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 32px;
   width: 32px;
   border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactsIconsCont:hover{
-  background-color: rgba(229, 231, 234);
+  background-color: rgb(229, 231, 234);
 }
 
 .contactsSearchIcon{
@@ -48,28 +48,28 @@
 }
 
 .contactsCont{
-  display: flex;
-  align-items: center;
   width: 100%;
   height: 48px;
   border-radius: 8px;
   padding: 2px 8px 2px 8px;
+  display: flex;
+  align-items: center;
   margin-left: 8px;
 }
 
 .contactsCont:hover{
-  background-color: rgb(229, 231, 234);
   cursor: pointer;
+  background-color: rgb(229, 231, 234);
 }
 
 .contactsMetaPhotoCont{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 34px;
   width: 34px;
   border: 1px solid rgb(227, 227, 227);
   border-radius: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 12px;
 }
 
@@ -93,11 +93,11 @@
 .contactsPhotoStoryRing{
   height: 34px;
   width: 34px;
+  border: 2px solid rgb(8, 102, 255);
+  border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgb(8, 102, 255);
-  border-radius: 100%;
   margin-right: 12px;
 }
 
@@ -110,7 +110,6 @@
 }
 
 .contactsName{
-  font-size: 15px;
   font-weight: 500;
   margin-top: -4px;
 }

@@ -6,7 +6,9 @@ body{
 }
 
 span, p{
+  font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 .verifiedIcon{
@@ -18,12 +20,12 @@ span, p{
 .createMessageCont{
   height: 48px;
   width: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: white;
   border-radius: 24px;
   box-shadow: 0px 13px 26px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   right: 16px;
   bottom: 16px;
@@ -44,8 +46,8 @@ span, p{
   height: 40px;
   width: 40px;
   border-radius: 20px;
-  position: relative;
   background-color: red;
+  position: relative;
 }
 
 .userPhoto{

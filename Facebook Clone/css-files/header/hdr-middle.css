@@ -1,10 +1,10 @@
 .middleHdrCont{
   height: 56px;
+  width: 40%;
+  gap: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
-  gap: 8px;
 }
 
 @media (max-width: 700px){
@@ -24,10 +24,14 @@
 }
 
 .friendsCont:hover, .reelsCont:hover, .gamesCont:hover{
+  height: 48px;
   cursor: pointer;
   background-color: rgb(242, 242, 242);
   border-radius: 10px;
-  height: 48px;
+}
+
+.homeCont{
+  border-bottom: 3px solid rgb(8, 102, 225);
 }
 
 .homeCont:hover{
@@ -52,8 +56,4 @@
 .gamesIcon{
   height: 25px;
   width: 25px;
-}
-
-.homeCont{
-  border-bottom: 3px solid rgb(8, 102, 225);
 }

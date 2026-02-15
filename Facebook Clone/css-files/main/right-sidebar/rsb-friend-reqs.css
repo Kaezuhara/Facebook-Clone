@@ -4,9 +4,7 @@
 }
 
 .friendReqsSeeAll{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(0, 100, 209);
-  font-size: 15px;
 }
 
 .friendReqsSeeAll:hover{
@@ -15,18 +13,18 @@
 }
 
 .friendReqsDispCont{
-  display: flex;
   width: 100%;
+  border-radius: 8px;
   padding: 6px 8px 6px 8px;
   margin-left: 8px;
-  border-radius: 8px;
-  z-index: 1;
+  display: flex;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .friendReqsDispCont:hover{
-  background-color: rgb(229, 231, 234);
   cursor: pointer;
+  background-color: rgb(229, 231, 234);
 }
 
 .friendReqsDispCont:hover .friendReqsDeleteButton{
@@ -46,10 +44,10 @@
 }
 
 .friendReqsDispRightCol{
-  display: flex;
-  flex-direction: column;
   padding-left: 12px;
   margin-top: -2px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 900px){
@@ -64,11 +62,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .friendReqsName{
-  font-size: 15px;
   font-weight: 500;
 }
 
@@ -82,18 +78,18 @@
   justify-content: left;
   align-items: center;
   padding-top: 8px;
-  position: relative;
   margin-bottom: 4px;
+  position: relative;
 }
 
 .friendReqsMutualsPhoto1Ring{
-  display: flex;
-  justify-content: left;
-  align-items: center;
   height: 18px;
   width: 18px;
   background-color: rgb(242, 244, 247);
   border-radius: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
   z-index: 2;
 }
 
@@ -117,13 +113,12 @@
   object-position: center;
   border-radius: 8px;
   padding-left: -3px;
-  z-index: 1;
   position: absolute;
   left: 12px;
+  z-index: 1;
 }
 
 .friendReqsMutualsLabel{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
   color: rgb(122, 126, 129);
   padding-left: 14px;
@@ -131,25 +126,23 @@
 }
 
 .friendReqsButtonsCont{
+  height: 44px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  height: 44px;
-  width: 100%;
 }
 
 .friendReqsConfirmButton, .friendReqsDeleteButton{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
-  font-weight: 500;
   height: 36px;
+  width: 50%;
+  font-weight: 500;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: none;
-  border-radius: 8px;
-  width: 50%;
 }
 
 .friendReqsConfirmButton:hover, .friendReqsDeleteButton:hover{

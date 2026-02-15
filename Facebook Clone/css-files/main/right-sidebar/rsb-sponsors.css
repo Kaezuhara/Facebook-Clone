@@ -1,10 +1,9 @@
 .sponsorDispCont{
   width: 100%;
+  padding: 8px 0px 8px 8px;
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 8px 0px 8px 8px;
   margin: 0px 8px;
   box-sizing: border-box;
 }
@@ -45,14 +44,11 @@
 }
 
 .sponsorTitle{
-  font-size: 15px;
   color: black;
   font-weight: 500;
-  margin: 0;
 }
 
 .sponsorDomain{
   font-size: 13px;
   color: rgba(122, 126, 129);
-  margin: 0;
 }

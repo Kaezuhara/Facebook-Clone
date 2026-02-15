@@ -38,13 +38,13 @@
 }
 
 .gcCreateButtonCont{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 36px;
   width: 36px;
   border-radius: 18px;
   background-color :rgb(226, 229, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 12px; 
 }
 

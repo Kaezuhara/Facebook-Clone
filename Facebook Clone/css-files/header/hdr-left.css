@@ -2,7 +2,7 @@
   width: 320px;
   display: flex;
   align-items: center;
-  padding: 8px 0px 8px 15px;
+  padding: 8px 0px 8px 16px;
   box-sizing: border-box;
 }
 
@@ -16,16 +16,20 @@
 }
 
 .searchButton{
-  display: block;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 40px;
-  width: 240px;
-  padding-left: 35px;
+  width: 238px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   background-color: rgba(240, 242, 245);
   border: none;
   border-radius: 20px;
+  display: block;
+  padding-left: 34px;
   margin-left: -38px;
+}
+
+.searchButton:focus{
+  outline: none;
 }
 
 @media (max-width: 1259px){
@@ -40,8 +44,8 @@
 .searchIconCont{
   height: 40px;
   width: 40px;
-  border-radius: 50%;
   background-color: rgb(240, 242, 245);
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
