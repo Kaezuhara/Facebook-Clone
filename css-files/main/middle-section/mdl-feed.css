@@ -234,6 +234,10 @@
   gap: 12px;
 }
 
+.feedStatsCount{
+  margin-bottom: -2px;  
+}
+
 .feedStatsIcon{
   height: 14px;
   width: 14px;
