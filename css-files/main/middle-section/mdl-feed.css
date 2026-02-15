@@ -166,7 +166,7 @@
 }
 
 .feedStatsCountMinSize, .feedStatsCountMaxSize{
-  margin-bottom: -3px;
+  margin-bottom: -2px;
 }
 
 @media (max-width: 523px){
