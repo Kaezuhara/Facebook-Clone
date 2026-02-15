@@ -165,10 +165,6 @@
   align-items: center;
 }
 
-.feedStatsCountMinSize, .feedStatsCountMaxSize{
-  margin-bottom: -2px;
-}
-
 @media (max-width: 523px){
   .feedStatsCountMinSize{
     display: inline;
